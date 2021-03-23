@@ -30,9 +30,9 @@ As the field of astronomy and astrophysics progresses, so does the instrumentati
 
 ### Models Tested:
 
-### RandomForest
-### Xgboost
-### LightGBM
+> RandomForest
+> Xgboost
+> LightGBM
 
 ## Findings
 
@@ -42,7 +42,7 @@ The first step in the project was to explore the dataset from the NASA archive. 
 
 Another aspect of the data was finding the huge class imbalance that exist between the number of exoplanets that live within the habitable zone, and that live outside their habitable zone. Under what we know about life, it seems reasonable to understand that there are far fewer exoplanets that live within habitable zone. Dealing with this class imbalance, I use resampling to over sample the minority class, and undersample the majority class. 
 
-<p align="center"><img width="500" height="300" src="/kepler-confirmed-planets/images/Class_imbalance.png" alt="class_imb"></p> 
+<p align="center"><img width="500" height="300" src="/kepler-confirmed-planets/images/Class_Imbalance.png" alt="class_imb"></p> 
 
 After dealing with several models, with various different parameters, I settled on _______ as the best model for predicting if an exoplanet lives within the habitable zone. I evaluated each model on the F1 score, the balance between precision and recall of each model. I want my model to be as precise as possible when predicting if an exoplonet lives within the habitable zone, and as sensitive to exoplanets that live just outside the habitable zone.
 
