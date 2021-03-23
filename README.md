@@ -30,9 +30,9 @@ As the field of astronomy and astrophysics progresses, so does the instrumentati
 
 ### Models Tested:
 
-> RandomForest
-> Xgboost
-> LightGBM
+> * RandomForest
+> * Xgboost
+> * LightGBM
 
 ## Findings
 
@@ -66,7 +66,8 @@ My next steps for this classification project would to consider the albedo affec
 
 ## Repository Structure
     
-    ├── Notebooks ├── data_cleaning                     Cleaned all data, created all features, and target column                           ├── EDA                               Created Visuals to explore the data
+    ├── Notebooks ├── data_cleaning                     Cleaned all data, created all features, and target column                           
+                  ├── EDA                               Created Visuals to explore the data
                   ├── Modeling                          Notebook of all models attempted with GridSearchCV
     ├── images                                          Images
     ├── README.md                                       ReadMe
