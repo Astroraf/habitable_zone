@@ -5,7 +5,7 @@ Author: [Rafael Ferreira](https://github.com/Astroraf)
 
 <p align="center">
 <img src="https://thumbs.gfycat.com/BaggySpottedKakarikis.webp"> 
-</p>git
+</p>
 
 ## <span style="color: deepskyblue;">Overview </span>
 As the field of astronomy and astrophysics progresses, so does the instrumentation that these scientist are using. Over the course of 25 years, we have disovered upwards to 4,000 known exoplanets orbiting other stars within the Milky Way Galaxy. The means of detection varies from instrument to instrument, with the most common detection techniques being the transit method, when the planet goes in front of its host star, showing a dip in brightness over a period of time. Radial Velocity, uses the host star slight movement caused by the push and pull of the exoplanet(s) that orbit the star. The last well known dection is imaging, but is not widely until we have better instrumentation like the James Webb Telescope, yet to be realeased into space. When using any of these three techniques, the main focus is detecting what stars live within the habitable zone. That is where liquid water can exist at temperatures between 273 K, the freezing point of water, and 373 K, the boiling point of water. Where liquid water or the habitable zone exist in other solar systems all depends on the type of star the system has. The more luminous stars have habitable zones that are push far out then compared to stars with lower lumnosities. My sole focus is determing wether the exoplanets that where discovered and archive in the NASA database fall within the habitable zone. Once the planets are determined to live within the habvitable zone, more research can be done if these planets are terrestial or gaseous planets, with the potential of humans exploring these exoplanets one day for humans to live. 
@@ -38,11 +38,11 @@ As the field of astronomy and astrophysics progresses, so does the instrumentati
 
 The first step in the project was to explore the dataset from the NASA archive. What I found was what I was expecting in terms of the type of stars that produce exoplanets and the number of planets that exist within the habitable zone. Most of the stars that are producing exoplanets are around the range from G to M type stars. The stars allow for exoplanets to easily exist and are much more suitable to allow for a habitable zone to exist for liquid water to arise. 
 
-<p align="center"><img width="900" height="300" src="/kepler-confirmed-planets/images/HR_diagram.png" alt="HR_diagram"></p> 
+<p align="center"><img width="500" height="300" src="/kepler-confirmed-planets/images/HR_diagram.png" alt="HR_diagram"></p> 
 
 Another aspect of the data was finding the huge class imbalance that exist between the number of exoplanets that live within the habitable zone, and that live outside their habitable zone. Under what we know about life, it seems reasonable to understand that there are far fewer exoplanets that live within habitable zone. Dealing with this class imbalance, I use resampling to over sample the minority class, and undersample the majority class. 
 
-<p align="center"><img width="900" height="300" src="/kepler-confirmed-planets/images/Class_imbalance.png" alt="class_imb"></p> 
+<p align="center"><img width="500" height="300" src="/kepler-confirmed-planets/images/Class_imbalance.png" alt="class_imb"></p> 
 
 After dealing with several models, with various different parameters, I settled on _______ as the best model for predicting if an exoplanet lives within the habitable zone. I evaluated each model on the F1 score, the balance between precision and recall of each model. I want my model to be as precise as possible when predicting if an exoplonet lives within the habitable zone, and as sensitive to exoplanets that live just outside the habitable zone.
 
