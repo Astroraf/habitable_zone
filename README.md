@@ -38,19 +38,18 @@ As the field of astronomy and astrophysics progresses, so does the instrumentati
 
 The first step in the project was to explore the dataset from the NASA archive. What I found was what I was expecting in terms of the type of stars that produce exoplanets and the number of planets that exist within the habitable zone. Most of the stars that are producing exoplanets are around the range from G to M type stars. The stars allow for exoplanets to easily exist and are much more suitable to allow for a habitable zone to exist for liquid water to arise. 
 
-<p align="center"><img width="900" height="300" src=".png" alt="HR_diagram"></p> 
+<p align="center"><img width="900" height="300" src="/images/HR_diagram.png" alt="HR_diagram"></p> 
 
 Another aspect of the data was finding the huge class imbalance that exist between the number of planets that live within the habitable zone, and that live outside the habitable zone. Under what we know about life, it seems reasonable to understand that there are far fewer exoplanets that live within habitable zone. Dealing with this class imbalance, I use resampling to over sample the minority class, and undersample the majority class. 
 
-<p align="center"><img width="900" height="300" src=".png" alt="class_imb"></p> 
+<p align="center"><img width="900" height="300" src="/images/Class_imbalance.png" alt="class_imb"></p> 
 
 
 
 ## Repository Structure
     
-    ├── data_cleaning                     Cleaned all data, created all features, and target column          
-    ├── EDA                               Created Visuals to explore the data
-    ├── Modeling                          Notebook of all models attempted with GridSearchCV
-    ├── images                            Images
-    ├── README.md                         ReadMe
-    └── presentation_deck                 Contains the presentation deck associated with this project
+    ├── Notebooks ├── data_cleaning                     Cleaned all data, created all features, and target column                           ├── EDA                               Created Visuals to explore the data
+                  ├── Modeling                          Notebook of all models attempted with GridSearchCV
+    ├── images                                          Images
+    ├── README.md                                       ReadMe
+    └── presentation_deck                               Contains the presentation deck associated with this project
