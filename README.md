@@ -66,9 +66,10 @@ My next steps for this classification project would to consider the albedo affec
 
 ## Repository Structure
     
-    ├── Notes/Data ├── data_cleaning                     Cleaned all data, created all features, and target column                           
-                   ├── EDA                               Created Visuals to explore the data
-                   ├── Modeling                          Notebook of all models attempted with GridSearchCV
-    ├── images                                          Images
-    ├── README.md                                       ReadMe
-    └── presentation_deck                               Contains the presentation deck associated with this project
+    ├── Notes/Data ├── Data                                            All csv files
+                   ├── Notebooks ├──data_cleaning                      Cleaned all data, created all features, and target column
+                                 ├── EDA                               Created Visuals to explore the data
+                                 ├── Modeling                          Notebook of all models attempted with GridSearchCV
+    ├── images                                                         Images
+    ├── README.md                                                      ReadMe
+    └── presentation_deck                                              Contains the presentation deck associated with this project
